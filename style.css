@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: "Futura PT", sans-serif;
+    color: rgba(42, 42, 42, 0.302);
+}
+
+h2 {
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    color: rgb(254, 254, 254);
+}
+
+h2:after {
+    content: "|";
+    opacity: 0.71;
+}
+
+.general {
+    background-color: #464f54;
+    width: 1200px;
+    height: 900px;
+    position: relative;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.black {
+    background-color: #181818;
+    width: 880px;
+    height: 180px;
+    right: 0;
+    top: 45px;
+    padding: 40px 60px;
+}
+
+.yellow {
+    background-color: #fbc02d;
+    width: 810px;
+    height: 75px;
+    top: 225px;
+    right: 0;
+    padding: 20px 50px;
+}
+
+.black, .yellow {
+    position: absolute;
+}
+
+.black p {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 15px;
+}
+
+.black p, hr {
+    color: rgb(118, 118, 118);
+}
+
+.white {
+    background-color: #fff;
+    width: 1050px;
+    height: 750px;
+    padding: 200px 100px 30px;
+    margin: auto;
+}
+
+.white>span {
+    color: rgb(180, 180, 180);
+    font-size: 25px;
+    font-style: italic;
+}
+
+.roy {
+    font-size: 15px;
+    font-family: "ProximaNova";
+    color: rgb(180, 180, 180);
+}
+
+.roy, .black p, h1 {
+    text-transform: uppercase;
+}
+
+.novel {
+    font-size: 25px;
+    font-family: "Georgia", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.novel>span {
+    font-style: italic;
+}
